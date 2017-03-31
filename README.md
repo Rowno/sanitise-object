@@ -20,12 +20,20 @@ const sanitiseObject = require('sanitise-object')
 const input = {
   username: 'batou',
   password: 'major',
-  apiKey: 'tachikoma'
+  friend: {
+    name: 'tachikoma',
+    apikey: 'thinktank'
+  }
 }
 const keywords = ['password', 'key']
 
 sanitiseObject(input, keywords)
-// {username: 'batou'}
+// {
+//   username: 'batou',
+//   friend: {
+//     name: 'tachikoma'
+//   }
+// }
 ```
 
 ### API
@@ -41,7 +49,7 @@ Type: `object`
 
 ##### keywords
 
-Type: `array`
+Type: `array`<br>
 Default: `['password', 'secret', 'key', 'token']`
 
 List of keywords to match against. Properties are removed if a keyword appears anywhere in it's name. Matching is case insensitive.
