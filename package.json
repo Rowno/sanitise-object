@@ -13,7 +13,9 @@
   "engines": {
     "node": ">=6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  },
   "devDependencies": {
     "ava": "^0.18.2",
     "xo": "^0.18.1"

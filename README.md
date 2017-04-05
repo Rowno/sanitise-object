@@ -41,7 +41,6 @@ sanitiseObject(input, keywords)
 #### sanitiseObject(input, [keywords])
 
 Returns the `input` object with matching properties removed.
-**Note: the `input` object is mutated.**
 
 ##### input
 
