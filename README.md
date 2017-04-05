@@ -40,7 +40,7 @@ sanitiseObject(input, keywords)
 
 #### sanitiseObject(input, [keywords])
 
-Returns the `input` object with matching properties removed.
+Returns a clone of the `input` object with matching properties removed.
 
 ##### input
 
