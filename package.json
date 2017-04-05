@@ -1,6 +1,6 @@
 {
   "name": "sanitise-object",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Recursively deletes properties from an object that match a list of keywords",
   "author": "Roland Warmerdam (https://roland.codes)",
   "keywords": [],
