@@ -11,7 +11,7 @@
     "test": "xo && ava"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
