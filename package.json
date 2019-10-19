@@ -18,7 +18,7 @@
     "lodash.isobject": "^3.0.2"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
+    "ava": "^2.4.0",
     "xo": "^0.18.1"
   },
   "files": [
